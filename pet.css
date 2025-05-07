@@ -582,4 +582,139 @@
     font-size: 0.95rem;
     line-height: 1.5;
   }
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    padding-top: 1rem;
+    gap: 1rem;
+  }
+
+  .hero {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .floating-photos {
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+  }
+
+  .floating {
+    position: relative;
+    width: 80%;
+    margin: 1rem auto;
+    transform: none !important;
+    animation: none;
+  }
+
+  .pet-friendly-section {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
+  .left-column, .right-column {
+    max-width: 100%;
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .right-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-section {
+    padding: 3rem 1rem;
+  }
+
+  .form-wrapper {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+
+  .story-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carousel-wrapper {
+    flex-direction: column;
+    gap: 1.5rem;
+    overflow-x: hidden;
+  }
+
+  .steps {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+  }
+
+  .step img {
+    height: 120px;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+
+  .btn {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.9rem;
+  }
+
+  .volunteer-form input,
+  .volunteer-form select,
+  .volunteer-form button {
+    font-size: 1rem;
+  }
+
+  .pet-card {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 768px) {
+  .floating-photos {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  .floating {
+    position: relative;
+    animation: none;
+    width: 80% !important;
+    margin-bottom: 1rem;
+    transform: rotate(0deg) !important;
+  }
+
+  .photo1, .photo2, .photo3 {
+    top: auto;
+    right: auto;
+  }
+}
   
